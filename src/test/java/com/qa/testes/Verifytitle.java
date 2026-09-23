@@ -11,7 +11,7 @@ public class Verifytitle {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
 		String title=driver.getTitle();
-		Assert.assertTrue(title.contains("renu"));
+		Assert.assertTrue(title.contains("Google"));
 		
 		
 	}
