@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-24T10:16:03 IST" name="Default suite" finished-at="2026-09-24T10:16:27 IST" duration-ms="24315">
+  <suite started-at="2026-09-24T10:44:50 IST" name="Default suite" finished-at="2026-09-24T10:45:08 IST" duration-ms="18165">
     <groups>
     </groups>
-    <test started-at="2026-09-24T10:16:03 IST" name="Default test" finished-at="2026-09-24T10:16:27 IST" duration-ms="24315">
+    <test started-at="2026-09-24T10:44:50 IST" name="Default test" finished-at="2026-09-24T10:45:08 IST" duration-ms="18165">
       <class name="com.qa.testes.HelloTest">
-        <test-method signature="verifyHelloWord()[pri:0, instance:com.qa.testes.HelloTest@31368b99]" started-at="2026-09-24T10:16:03 IST" name="verifyHelloWord" finished-at="2026-09-24T10:16:03 IST" duration-ms="20" status="PASS">
+        <test-method signature="verifyHelloWord()[pri:0, instance:com.qa.testes.HelloTest@41e36e46]" started-at="2026-09-24T10:44:50 IST" name="verifyHelloWord" finished-at="2026-09-24T10:44:50 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHelloWord -->
       </class> <!-- com.qa.testes.HelloTest -->
       <class name="com.qa.testes.Locators">
-        <test-method signature="Locateit()[pri:0, instance:com.qa.testes.Locators@41e36e46]" started-at="2026-09-24T10:16:03 IST" name="Locateit" finished-at="2026-09-24T10:16:06 IST" duration-ms="3342" status="PASS">
+        <test-method signature="Locateit()[pri:0, instance:com.qa.testes.Locators@39529185]" started-at="2026-09-24T10:44:50 IST" name="Locateit" finished-at="2026-09-24T10:44:53 IST" duration-ms="3383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Locateit -->
       </class> <!-- com.qa.testes.Locators -->
       <class name="com.qa.testes.Loginhrm">
-        <test-method signature="logintest()[pri:0, instance:com.qa.testes.Loginhrm@3d74bf60]" started-at="2026-09-24T10:16:08 IST" name="logintest" finished-at="2026-09-24T10:16:27 IST" duration-ms="18555" status="PASS">
+        <test-method signature="logintest()[pri:0, instance:com.qa.testes.Loginhrm@3daa422a]" started-at="2026-09-24T10:44:56 IST" name="logintest" finished-at="2026-09-24T10:45:03 IST" duration-ms="7240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
       </class> <!-- com.qa.testes.Loginhrm -->
       <class name="com.qa.testes.Verifytitle">
-        <test-method signature="verifytitlef()[pri:0, instance:com.qa.testes.Verifytitle@15c43bd9]" started-at="2026-09-24T10:16:06 IST" name="verifytitlef" finished-at="2026-09-24T10:16:08 IST" duration-ms="2319" status="PASS">
+        <test-method signature="verifytitlef()[pri:0, instance:com.qa.testes.Verifytitle@72f926e6]" started-at="2026-09-24T10:44:53 IST" name="verifytitlef" finished-at="2026-09-24T10:44:56 IST" duration-ms="2300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifytitlef -->
       </class> <!-- com.qa.testes.Verifytitle -->
+      <class name="testes.LoginTest">
+        <test-method signature="logintests()[pri:0, instance:testes.LoginTest@31c88ec8]" started-at="2026-09-24T10:45:03 IST" name="logintests" finished-at="2026-09-24T10:45:08 IST" duration-ms="5129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintests -->
+      </class> <!-- testes.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
